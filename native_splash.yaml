@@ -1,0 +1,18 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+
+  color: "#ffffff"
+  image: "assets/images/logo.png"
+  branding: "assets/images/branding.png"
+
+  # remove_alpha helps avoid transparent backgrounds on some platforms
+  remove_alpha: true
+  # fill makes the image scale to fill the splash area (adjust if you prefer centered)
+  fill: true
+
+  android_12:
+    color: "#ffffff"
+    image: "assets/images/logo.png"
+    branding: "assets/images/branding.png"
